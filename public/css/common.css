@@ -1,0 +1,55 @@
+body {
+    font-size: 14px;
+    color: #666;
+    margin: 20px;
+}
+
+table {
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+}
+
+table tr {
+    border: dashed 1px #ddd;
+}
+
+table th, table td {
+    padding: 8px;
+}
+
+table td {
+    font-size: 12px;
+}
+
+.w-600 {
+    width: 600px;
+}
+
+button, input[type='submit'] {
+    border: solid 1px #00BFFF;
+    color: #00BFFF;
+    border-radius: 3px;
+    background: #fafafa;
+    width: 80px;
+}
+
+.comment-wrap {
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 600px;
+}
+
+.comment-wrap li {
+    list-style: none;
+}
+
+.comment-wrap li:not(:last-child) {
+    border-bottom: dashed 1px #ccc;
+}
+
+.comment-area textarea{
+    border: solid 1px #ccc;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
