@@ -11,15 +11,6 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
-//Route::get('/', function () {
-//    return view('index');
-//});
-
-//Route::get('programs/{id}', 'ProgramsController@show');
 Route::get('programs', 'ProgramsController@index');
 Route::get('programs/detail', ['as'=>'detail','uses'=>'ProgramsController@detail']);
 Route::post('programs/detail', ['as'=>'detail','uses'=>'ProgramsController@postDetail']);

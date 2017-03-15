@@ -58,6 +58,7 @@ class ProgramsController extends Controller
             $parts['program_id'] = $programId;
             $parts['comment'] = $_POST['comment'];
             Comment::insert($parts);
+            redirect($this->detail());
         }
 
         $programs = Program::where('id', $programId)->first();

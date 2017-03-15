@@ -16,7 +16,7 @@
 
 <body>
     <h1>各話あらすじ</h1>
-    <form action="{{ route('detail') }}" method="POST" enctype="multipart/form-data">
+    <form action="" method="POST" enctype="multipart/form-data">
     <table>
         <thead>
             <tr>
